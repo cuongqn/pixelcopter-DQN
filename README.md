@@ -5,7 +5,7 @@ Train agent to play pixelcopter (from PyGame Learning Environment) from pixel da
 ![New agent](https://media.giphy.com/media/1wqoTQ7grLkduRDKvF/giphy.gif)
 
 ## After 1 hour of training:
-![1 hour](https://media.giphy.com/media/WxlxVAhRNFdKhwyQfb/giphy.gif)
+![1 hour](https://media.giphy.com/media/WxlxVAhRNFdKhwyQfb/giphy.gif) ![1 hour](https://media.giphy.com/media/6276HOopTYk81YfX30/giphy.gif)
 
 ## Current Issue: Unstable and oscillating policy
 Implemented (inspired by [DeepMind Atari paper](https://www.nature.com/articles/nature14236 "Human-level control through deep reinforcement learning")):
