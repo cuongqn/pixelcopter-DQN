@@ -20,4 +20,4 @@ The following has been implemented (inspired by [DeepMind Atari paper](https://w
 
 - Separate target network: Update every 10 training periods
 
-They have definitely helped the Q-function to be more stable, however oscillation is still observed.
+Implementing these had definitely helped stabilizing Q-function, however oscillation is still observed.
