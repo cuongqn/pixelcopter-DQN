@@ -5,10 +5,13 @@ Train agent to play pixelcopter (from PyGame Learning Environment) from pixel da
 ## Beginning
 ![New agent](https://media.giphy.com/media/1wqoTQ7grLkduRDKvF/giphy.gif)
 
-## After 1.5 hour of learning
+## After 1.5 hour of training
 Agent awares of boundaries and obstacles, although fine movement control can definitely use some improvement.
 
 ![1 hour](https://media.giphy.com/media/WxlxVAhRNFdKhwyQfb/giphy.gif) ![1 hour](https://media.giphy.com/media/6276HOopTYk81YfX30/giphy.gif)
+
+## After 24 hour (1 million frames) of training
+![24 hour](https://media.giphy.com/media/3scDuVXdFmG6TYX34V/giphy.gif)
 
 ***
 ## Current Issue: Unstable and oscillating policy
