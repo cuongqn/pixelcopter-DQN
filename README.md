@@ -2,7 +2,7 @@
 Self-taught AI agent learn to play pixelcopter (PyGame Learning Environment) from raw pixel data using Deep Q-Learning.
 
 ### Dynamic velocity
-Pixelcopter proves to be an interesting to solve iteratively from raw pixel data. The agent needs to be aware of the **compounding effect of action on velocity** (i.e. velocity of the "pixel" varies based on both current velocity and the action taken). To help the agent recognize the effect, the problem is setup similarly to DeepMind Atari paper with input image having 4 channels for 4 most recent frames. The difference here: every other frame is chosen from the most recent frame, equivalent to "seeing" 8 frames into the "past". This seems to help slightly.  
+Pixelcopter proves to be an interesting to solve iteratively from raw pixel data: The agent needs to be aware of the **compounding effect of action on velocity** (i.e. velocity of the "pixel" varies based on both current velocity and the action taken). To help the agent recognize the effect, the problem is setup similarly to DeepMind Atari paper with input images having 4 channels for 4 most recent frames. The difference here: every other frame is chosen from the most recent frame, equivalent to "seeing" 8 frames into the "past". This seems to improve the rate at which policy improves.  
   
   
 ***
